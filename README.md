@@ -23,9 +23,9 @@ Details on the OAuth process are available [here](http://dev.evernote.com/start/
 
 Here are the basic steps for OAuth using the jsOAuth library.
 
-(Change this to http://www.evernote.com, when you are ready to activate on production).
+(Change this to https://www.evernote.com, when you are ready to activate on production).
     
-    var hostName = "http://sandbox.evernote.com"; 
+    var hostName = "https://sandbox.evernote.com"; 
 
 Step 1:
 
@@ -219,7 +219,7 @@ FAQ
 
 ### Does the API support CORS (Cross origin resource sharing)
 
-Not yet. However, there are an increasing number of platforms(phonegap,node.js, etc) that use JavaScript as their language. This SDK works well with those platforms.
+Not yet. However, there are an increasing number of platforms (phonegap,node.js, etc.) that use JavaScript as their language. This SDK works well with those platforms.
 
 ### Can I test my code in the browser
 
